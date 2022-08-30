@@ -1,2 +1,9 @@
-package PACKAGE_NAME;public class Main {
+import suma.Suma;
+public class Main {
+
+    public static void main(String[] args) {
+       Suma suma = new Suma();
+       suma.sumatoria();
+
+    }
 }
